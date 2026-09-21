@@ -1,0 +1,31 @@
+{
+  "instances": [
+    {
+      "id": "39928889-082a-4e36-b3a5-eec9779ad0c6",
+      "name": "test-instance1",
+      "status": "ACTIVE",
+      "host": "controller",
+      "volumes": [
+        {
+          "volume_id": "1805fc20-a685-4bad-954d-d8914961f393",
+          "device": "/dev/vdb"
+        }
+      ]
+    }
+  ],
+  "networks": [
+    {
+      "id": "1c9bc5c3-fdf6-4260-82e6-a3979b49ad79",
+      "name": "provider",
+      "connected_instances": []
+    },
+    {
+      "id": "889f5ac6-b54d-4bed-8add-cc235e2aa17a",
+      "name": "selfservice",
+      "connected_instances": [
+        "c3056c50-e516-4086-9e45-a4796c0af460",
+        "39928889-082a-4e36-b3a5-eec9779ad0c6"
+      ]
+    }
+  ]
+}
